@@ -2,6 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Sidebar, Videos } from "./";
+import "../index.css";
 
 import { fetchFromApi } from "../utils/fetchFromApi";
 
